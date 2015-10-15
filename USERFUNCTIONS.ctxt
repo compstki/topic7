@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ preDefFunctionsA()
+comment1.params=
+comment1.target=void\ preDefFunctionsB()
+comment2.params=
+comment2.target=int\ getValidInteger()
+comment3.params=
+comment3.target=java.lang.String\ getValidName()
+comment4.params=
+comment4.target=void\ enterHealthData()
+comment5.params=data\ lower\ upper
+comment5.target=int\ getValidRange(java.lang.String,\ int,\ int)
+numComments=6
