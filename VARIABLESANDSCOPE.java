@@ -1,7 +1,7 @@
 
 public class VARIABLESANDSCOPE
 {
- //   int score = 5000;
+    int score = 5000;
 
     public void methodA() {
         int score = 100;
@@ -17,12 +17,12 @@ public class VARIABLESANDSCOPE
 
     public void methodC() {
         int bonus = 30;
- //       score = score + bonus;
- //       System.out.println("Score C " + score);
+        score = score + bonus;
+        System.out.println("Score C " + score);
     }
 
- //   public void methodD() {
- //       System.out.println("Score D " + score);
- //   }
+    public void methodD() {
+        //System.out.println("Score D " + score);
+   }
 
 }

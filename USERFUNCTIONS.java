@@ -47,7 +47,7 @@ public class USERFUNCTIONS
         System.out.println("Age: " + age + "BMI: " + BMI);
     }
     
-        public int getValidRange(String data, int lower, int upper) {
+    public int getValidRange(String data, int lower, int upper) {
         int userInput = Integer.parseInt(JOptionPane.showInputDialog("Enter " + data));
         while ((userInput < lower) || (userInput > upper)) {
             System.out.println("Input must be between " + lower + " and " + upper);
